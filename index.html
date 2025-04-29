@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AED Symbol Font Demo</title>
+    <style>
+      @font-face {
+        font-family: "NewAED";
+        src: url("font/Newaed-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        line-height: 1.6;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #333;
+      }
+
+      .aed-font {
+        font-family: "NewAED", sans-serif;
+      }
+
+      .demo-section {
+        margin: 2rem 0;
+        padding: 1.5rem;
+        border: 1px solid #eaeaea;
+        border-radius: 8px;
+      }
+
+      .demo-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+
+      .demo-cell {
+        flex: 1;
+      }
+
+      .size-sample {
+        margin: 1rem 0;
+      }
+
+      .size-12 {
+        font-size: 12px;
+      }
+      .size-16 {
+        font-size: 16px;
+      }
+      .size-24 {
+        font-size: 24px;
+      }
+      .size-36 {
+        font-size: 36px;
+      }
+      .size-48 {
+        font-size: 48px;
+      }
+      .size-64 {
+        font-size: 64px;
+      }
+
+      code {
+        background: #f4f4f4;
+        padding: 0.2rem 0.4rem;
+        border-radius: 4px;
+        font-size: 0.9em;
+      }
+
+      footer {
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid #eaeaea;
+        font-size: 0.9rem;
+        color: #666;
+      }
+
+      footer a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AED Symbol Font Demo</h1>
+
+    <p>
+      This is a demonstration of the custom AED (UAE Dirham) symbol font based
+      on Inter.
+    </p>
+
+    <div class="demo-section">
+      <h2>AED Symbol Display</h2>
+
+      <div class="demo-row">
+        <div class="demo-cell">
+          <h3>Regular Text</h3>
+          <p>Price: <span class="aed-font">AED</span> 199.99</p>
+          <p>Cost: <span class="aed-font">AED</span> 149.50</p>
+        </div>
+
+        <div class="demo-cell">
+          <h3>Styled Example</h3>
+          <p style="font-weight: bold; font-size: 24px">
+            <span class="aed-font">AED</span> 1,299.00
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="demo-section">
+      <h2>Size Variations</h2>
+
+      <div class="size-sample size-12">
+        <span class="aed-font">AED</span> 12px
+      </div>
+      <div class="size-sample size-16">
+        <span class="aed-font">AED</span> 16px
+      </div>
+      <div class="size-sample size-24">
+        <span class="aed-font">AED</span> 24px
+      </div>
+      <div class="size-sample size-36">
+        <span class="aed-font">AED</span> 36px
+      </div>
+      <div class="size-sample size-48">
+        <span class="aed-font">AED</span> 48px
+      </div>
+      <div class="size-sample size-64">
+        <span class="aed-font">AED</span> 64px
+      </div>
+    </div>
+
+    <div class="demo-section">
+      <h2>How to Use</h2>
+
+      <p>Include the font in your CSS:</p>
+      <pre><code>@font-face {
+    font-family: 'NewAED';
+    src: url('path/to/Newaed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}</code></pre>
+
+      <p>Apply the font to specific elements:</p>
+      <pre><code>.aed-symbol {
+    font-family: 'NewAED', sans-serif;
+}</code></pre>
+
+      <p>Use in HTML:</p>
+      <pre><code>&lt;span class="aed-symbol"&gt;AED&lt;/span&gt; 199.99</code></pre>
+    </div>
+
+    <footer>
+      <p>
+        Created by
+        <a href="https://www.ibrahim-abdulbasit.com" target="_blank"
+          >Ibrahim Abdulbasit</a
+        >
+        | <a href="[GitHub Repository URL]" target="_blank">View on GitHub</a>
+      </p>
+      <p>
+        Inspired by
+        <a
+          href="https://www.one-fs.com/p/the-new-saudi-riyal-symbol-and-the"
+          target="_blank"
+          >Dom Monhardt's Saudi Riyal Symbol Solution</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
