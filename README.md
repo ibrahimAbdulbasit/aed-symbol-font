@@ -14,10 +14,10 @@ The font contains a subset of characters, focusing specifically on the AED symbo
 
 ## How It Works
 
-This solution follows a similar approach to the Saudi Riyal symbol implementation:
-- The custom font contains only the necessary characters for the AED symbol display
+The solution follows a similar approach to the Saudi Riyal symbol implementation:
+- The font is a modified version of Inter where the letters 'a' and 'e' were removed, and 'd' was edited to create the AED symbol
 - When applied to text displaying "AED", it renders the custom AED symbol instead
-- If the font fails to load (e.g., in emails), "AED" remains as a readable fallback
+- If the font fails to load, "AED" remains as a readable fallback
 - This approach ensures seamless integration while avoiding the need for image assets or vector graphics
 
 ## Usage
@@ -94,7 +94,7 @@ The full SIL Open Font License text is included in the `LICENSE` file in this re
 
 ## GitHub Repository
 
-This project is available on GitHub at: [GitHub Repository URL]
+This project is available on GitHub at: https://github.com/ibrahimAbdulbasit/aed-symbol-font
 
 ## Credits
 
