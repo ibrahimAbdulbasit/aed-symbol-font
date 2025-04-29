@@ -68,7 +68,8 @@ For better compatibility, consider using a font stack:
 
 ## Demo
 
-Open `index.html` in your browser to view a demonstration of the font in action.
+- Open `index.html` in your browser to view a demonstration of the font in action.
+- You can also visit [The New AED Symbol](https://www.ibrahim-abdulbasit.com/blog/the-new-aed-symbol) for a detailed explanation and live demo.
 
 ## License
 
