@@ -1,4 +1,4 @@
-# NewAED Font
+# Newaed Font
 
 A custom font for displaying the AED (UAE Dirham) currency symbol, based on the Inter font.
 
@@ -8,7 +8,7 @@ This font was created to provide a clean, consistent way to display the AED curr
 
 **This implementation is inspired by Dom Monhardt's approach** detailed in his blog post ["🇸🇦🪙 The New Saudi Riyal Symbol and the Future of GCC Currencies"](https://www.one-fs.com/p/the-new-saudi-riyal-symbol-and-the), where he developed a custom font solution for the Saudi Riyal symbol.
 
-**NewAED is a derivative work based on Inter**, with modifications focused on providing a dedicated AED currency symbol. The font has been modified from the original Inter typeface created by Rasmus Andersson.
+**Newaed is a derivative work based on Inter**, with modifications focused on providing a dedicated AED currency symbol. The font has been modified from the original Inter typeface created by Rasmus Andersson.
 
 The font contains a subset of characters, focusing specifically on the AED symbol while maintaining typographic consistency with the Inter font family.
 
@@ -28,7 +28,7 @@ The solution follows a similar approach to the Saudi Riyal symbol implementation
    ```
    /your-project
    ├── font/
-   │   └── Newaed-Regular.ttf
+   │   └── Newaed-mini.ttf
    ├── css/
    │   └── styles.css
    └── index.html
@@ -37,8 +37,8 @@ The solution follows a similar approach to the Saudi Riyal symbol implementation
 2. Add the font-face declaration in your CSS:
    ```css
    @font-face {
-     font-family: 'NewAED';
-     src: url('../font/Newaed-Regular.ttf') format('truetype');
+     font-family: 'Newaed';
+     src: url('../font/Newaed-mini.ttf') format('truetype');
      font-weight: normal;
      font-style: normal;
    }
@@ -47,7 +47,7 @@ The solution follows a similar approach to the Saudi Riyal symbol implementation
 3. Apply the font to your AED symbols:
    ```css
    .aed-symbol {
-     font-family: 'NewAED', sans-serif;
+     font-family: 'Newaed', sans-serif;
    }
    ```
 
@@ -62,7 +62,7 @@ For better compatibility, consider using a font stack:
 
 ```css
 .aed-symbol {
-  font-family: 'NewAED', 'Arial Unicode MS', 'Arial', sans-serif;
+  font-family: 'Newaed', 'Arial Unicode MS', 'Arial', sans-serif;
 }
 ```
 
@@ -79,7 +79,7 @@ This font is a derivative work based on Inter, which is licensed under the SIL O
 
 According to the SIL Open Font License:
 
-1. This modified font has been renamed (NewAED) to avoid confusion with the original Inter font, as required by the license.
+1. This modified font has been renamed (Newaed) to avoid confusion with the original Inter font, as required by the license.
 2. This font may be used freely for both personal and commercial projects.
 3. This font may be distributed with the same SIL Open Font License.
 4. This font may not be sold by itself, but can be included as part of a larger project or software package.
